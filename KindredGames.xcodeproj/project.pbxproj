@@ -14,6 +14,7 @@
 		7278508128CA9D4A003538FF /* KindredGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7278508028CA9D4A003538FF /* KindredGamesTests.swift */; };
 		7278508B28CA9D4A003538FF /* KindredGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7278508A28CA9D4A003538FF /* KindredGamesUITests.swift */; };
 		7278508D28CA9D4A003538FF /* KindredGamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7278508C28CA9D4A003538FF /* KindredGamesUITestsLaunchTests.swift */; };
+		7278509A28CA9DE7003538FF /* Kindred (Unibet) - iOS Home Tech Test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7278509928CA9DE7003538FF /* Kindred (Unibet) - iOS Home Tech Test.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7278508628CA9D4A003538FF /* KindredGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindredGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7278508A28CA9D4A003538FF /* KindredGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindredGamesUITests.swift; sourceTree = "<group>"; };
 		7278508C28CA9D4A003538FF /* KindredGamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindredGamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7278509928CA9DE7003538FF /* Kindred (Unibet) - iOS Home Tech Test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kindred (Unibet) - iOS Home Tech Test.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		7278506E28CA9D49003538FF /* KindredGames */ = {
 			isa = PBXGroup;
 			children = (
+				7278509928CA9DE7003538FF /* Kindred (Unibet) - iOS Home Tech Test.pdf */,
 				7278506F28CA9D49003538FF /* KindredGamesApp.swift */,
 				7278507128CA9D49003538FF /* ContentView.swift */,
 				7278507328CA9D4A003538FF /* Assets.xcassets */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7278509A28CA9DE7003538FF /* Kindred (Unibet) - iOS Home Tech Test.pdf in Resources */,
 				7278507728CA9D4A003538FF /* Preview Assets.xcassets in Resources */,
 				7278507428CA9D4A003538FF /* Assets.xcassets in Resources */,
 			);

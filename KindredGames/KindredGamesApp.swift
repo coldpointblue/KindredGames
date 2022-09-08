@@ -15,7 +15,7 @@
 //  ----------------------------------------------------
 
 //  ----------------------------------------------------
-/*  Goal explanation:  (whole app does? … for users)   */
+/*  Goal explanation:  Load JSON file and display game titles + images.   */
 //  ----------------------------------------------------
 
 

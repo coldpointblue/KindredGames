@@ -15,7 +15,8 @@
 //  ----------------------------------------------------
 
 //  ----------------------------------------------------
-/*  Goal explanation:  (whole app does? … for users)   */
+/*  Goal explanation:  Define UI code tests to ensure app runs smoothly
+ and to identify problems as soon as they break any code. */
 //  ----------------------------------------------------
 
 
