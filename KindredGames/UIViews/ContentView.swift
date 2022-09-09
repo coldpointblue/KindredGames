@@ -82,7 +82,7 @@ extension ContentView {
             }
             Divider()
             VStack.init(alignment: SwiftUI.HorizontalAlignment.leading) {
-                Text("#\(number):")
+                Text("#\(number + 1):")
                 Text("\(gameDictionary.games[key]?.gameName ?? "………………… NAME MISSING")")
                     .font(SwiftUI.Font.headline)
             }
