@@ -11,17 +11,18 @@
 //
 //  https://github.com/coldpointblue
 //  Created by Hugo Diaz on 08/09/22.
-//  
+//
 //  ----------------------------------------------------
 
 //  ----------------------------------------------------
 /*  Goal explanation:  List game titles + images.   */
 //  ----------------------------------------------------
 
-
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var everyGameCoverViewModel: GameCoversViewModel
+
     var body: some View {
         Text("Hello, world!")
             .padding()
@@ -30,6 +31,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(GameCoversViewModel())
     }
 }

@@ -11,21 +11,22 @@
 //
 //  https://github.com/coldpointblue
 //  Created by Hugo Diaz on 08/09/22.
-//  
+//
 //  ----------------------------------------------------
 
 //  ----------------------------------------------------
 /*  Goal explanation:  Load JSON file and display game titles + images.   */
 //  ----------------------------------------------------
 
-
 import SwiftUI
 
 @main
 struct KindredGamesApp: App {
+    @StateObject var gameCoversViewModel = GameCoversViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(gameCoversViewModel)
         }
     }
 }
