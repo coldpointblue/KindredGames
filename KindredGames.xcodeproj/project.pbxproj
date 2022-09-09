@@ -15,6 +15,11 @@
 		7278508B28CA9D4A003538FF /* KindredGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7278508A28CA9D4A003538FF /* KindredGamesUITests.swift */; };
 		7278508D28CA9D4A003538FF /* KindredGamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7278508C28CA9D4A003538FF /* KindredGamesUITestsLaunchTests.swift */; };
 		7278509A28CA9DE7003538FF /* Kindred (Unibet) - iOS Home Tech Test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7278509928CA9DE7003538FF /* Kindred (Unibet) - iOS Home Tech Test.pdf */; };
+		727850A228CAA02D003538FF /* GameNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727850A128CAA02D003538FF /* GameNetwork.swift */; };
+		727850A428CAA09D003538FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727850A328CAA09D003538FF /* Constants.swift */; };
+		727850A628CAA103003538FF /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 727850A528CAA103003538FF /* README.rtf */; };
+		727850A828CAA169003538FF /* EveryGameCoverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727850A728CAA169003538FF /* EveryGameCoverModel.swift */; };
+		727850AD28CAA7AE003538FF /* GameCoversViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727850AC28CAA7AE003538FF /* GameCoversViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		7278508A28CA9D4A003538FF /* KindredGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindredGamesUITests.swift; sourceTree = "<group>"; };
 		7278508C28CA9D4A003538FF /* KindredGamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindredGamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7278509928CA9DE7003538FF /* Kindred (Unibet) - iOS Home Tech Test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kindred (Unibet) - iOS Home Tech Test.pdf"; sourceTree = "<group>"; };
+		727850A128CAA02D003538FF /* GameNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNetwork.swift; sourceTree = "<group>"; };
+		727850A328CAA09D003538FF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		727850A528CAA103003538FF /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		727850A728CAA169003538FF /* EveryGameCoverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveryGameCoverModel.swift; sourceTree = "<group>"; };
+		727850AC28CAA7AE003538FF /* GameCoversViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCoversViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				7278509928CA9DE7003538FF /* Kindred (Unibet) - iOS Home Tech Test.pdf */,
+				727850A528CAA103003538FF /* README.rtf */,
 				7278506F28CA9D49003538FF /* KindredGamesApp.swift */,
-				7278507128CA9D49003538FF /* ContentView.swift */,
+				727850A328CAA09D003538FF /* Constants.swift */,
+				727850AB28CAA765003538FF /* ViewModelsLogic */,
+				727850AA28CAA2CA003538FF /* UIViews */,
+				7278509D28CA9F77003538FF /* Models */,
+				727850A028CA9FD0003538FF /* Network Service */,
 				7278507328CA9D4A003538FF /* Assets.xcassets */,
 				7278507528CA9D4A003538FF /* Preview Content */,
 			);
@@ -130,6 +145,38 @@
 			path = KindredGamesUITests;
 			sourceTree = "<group>";
 		};
+		7278509D28CA9F77003538FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				727850A728CAA169003538FF /* EveryGameCoverModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		727850A028CA9FD0003538FF /* Network Service */ = {
+			isa = PBXGroup;
+			children = (
+				727850A128CAA02D003538FF /* GameNetwork.swift */,
+			);
+			path = "Network Service";
+			sourceTree = "<group>";
+		};
+		727850AA28CAA2CA003538FF /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				7278507128CA9D49003538FF /* ContentView.swift */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		727850AB28CAA765003538FF /* ViewModelsLogic */ = {
+			isa = PBXGroup;
+			children = (
+				727850AC28CAA7AE003538FF /* GameCoversViewModel.swift */,
+			);
+			path = ViewModelsLogic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +185,7 @@
 			buildConfigurationList = 7278509028CA9D4A003538FF /* Build configuration list for PBXNativeTarget "KindredGames" */;
 			buildPhases = (
 				7278506828CA9D49003538FF /* Sources */,
+				727850A928CAA207003538FF /* Run Script SwiftLint */,
 				7278506928CA9D49003538FF /* Frameworks */,
 				7278506A28CA9D49003538FF /* Resources */,
 			);
@@ -237,6 +285,7 @@
 				7278509A28CA9DE7003538FF /* Kindred (Unibet) - iOS Home Tech Test.pdf in Resources */,
 				7278507728CA9D4A003538FF /* Preview Assets.xcassets in Resources */,
 				7278507428CA9D4A003538FF /* Assets.xcassets in Resources */,
+				727850A628CAA103003538FF /* README.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,12 +305,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		727850A928CAA207003538FF /* Run Script SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint lint --fix --format && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\\n note:       …or if you have brew, install using…\\n note:      brew install swiftlint\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7278506828CA9D49003538FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727850A428CAA09D003538FF /* Constants.swift in Sources */,
+				727850A228CAA02D003538FF /* GameNetwork.swift in Sources */,
+				727850A828CAA169003538FF /* EveryGameCoverModel.swift in Sources */,
 				7278507228CA9D49003538FF /* ContentView.swift in Sources */,
+				727850AD28CAA7AE003538FF /* GameCoversViewModel.swift in Sources */,
 				7278507028CA9D49003538FF /* KindredGamesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

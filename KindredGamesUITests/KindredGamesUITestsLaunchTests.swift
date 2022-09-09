@@ -11,14 +11,13 @@
 //
 //  https://github.com/coldpointblue
 //  Created by Hugo Diaz on 08/09/22.
-//  
+//
 //  ----------------------------------------------------
 
 //  ----------------------------------------------------
 /*  Goal explanation:  Configure UI code tests to ensure app runs smoothly
  and to identify problems as soon as they break any code. */
 //  ----------------------------------------------------
-
 
 import XCTest
 
